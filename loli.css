@@ -1,0 +1,129 @@
+ * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body, html {
+            height: 200%;
+            background-size: cover;
+            width: 100%;
+            background-image: linear-gradient(to top,rgba(0,0,0,0.8) 0,rgba(0,0,0,0.0001) 100%),url(./54605685_p0.jpg);
+            background-attachment: fixed;
+        }
+
+        .header{
+            position: relative;
+            width: 100%;
+            height: 25%;
+        }
+        .header hr, h1, h3 ,#test1{
+            color: #FFF;
+            position: relative;
+            text-align: center;
+            top: 150px;
+        }
+        .header hr {
+            width: 50%;
+            height: 1px;
+            margin: 40px auto;
+            border: 0;
+
+            background-image: -webkit-linear-gradient(left, rgba(228,228,228,0), rgba(228,228,228,0.75), rgba(228,228,228,0));
+            background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+        }
+        .header h1 {
+            font: 400 18px/1.62 "Georgia", "Xin Gothic", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+            font-size: 50px;
+        }
+        .header h3 {
+            font-weight: 100;
+        }
+         #test1 {
+            position: relative;
+            border: 2px solid;
+            border-color:#FFF;
+            border-radius:100px;
+            margin: 0 auto;
+            height: 200px;
+            width: 200px;  
+            background: no-repeat;
+            background-image: url(./komeiji.jpg);
+            background-position: -50px -40px;
+            background-size: 150%
+         }
+         .navbar {
+            position: fixed;
+            float: right;
+            z-index: 1;
+            top: 300px;
+            left: 90%;
+
+         }
+         ul{
+            position: relative;
+            margin: 0;
+            padding: 0;
+            background-color: gray;
+            left:3px;
+            height: 100px;
+            width: 20px;
+            border-radius: 5px;
+
+         }
+         .navbar ul li {
+            margin: 5px;
+            padding: 0;
+            border: 0;
+            position: relative;
+            border-radius: 5px;
+            top: 10px;
+            height: 10px;
+            width: 10px;
+            list-style: none;
+            background-color: #66CCFF;
+         }
+         li:hover{
+            opacity: 0.5;
+         }
+         .navbar ul ol{
+            margin: 5px;
+            padding: 0;
+            border: 0;
+            position: relative;
+            border-radius: 5px;
+            top: 5px;
+            height: 2px;
+            width: 10px;
+            list-style: none;
+            background-color: gray;
+         }
+         #go-top{
+            position: relative;
+            top:100px;
+            margin: 0 auto;
+            height: 29px;
+            width: 29px;
+            background-image: url(./top.jpg);
+
+            background-size: cover;
+         }
+         #go-top:hover{
+            opacity: 0.5;
+         }
+         .information {
+            position: relative;
+            height: 25%;
+            width: 100%;
+         }
+         .skill {
+            position: relative;
+            height: 25%;
+            width: 100%;
+         }
+         .others {
+            position: relative;
+            height: 25%;
+            width: 100%;
+         }
